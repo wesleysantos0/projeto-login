@@ -13,13 +13,17 @@ Grandes telas: acima de 1200px
 /*
     Configurando as css para telas de 768px a 992px.
 */
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /*Configuração para tablet*/
     body{
         background-image: linear-gradient(to top,#49a09d, #5f2c82);
     }
-    section#login {
-        width: 90vw;
-    }
+    
+}
+
+section#login {
+    width: 80vw;
+    height: 280px;
 }
 
 section#login > div#imagem {
@@ -33,12 +37,14 @@ section#login > div#formulario {
     width: 70%;
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {/*
+    Configurações Para Descktop*/
     body{
         background-image: linear-gradient(to top,#49a09d, #5f2c82);
     }
     section#login {
         width: 950px;
+        height: 350px;
 
     }
 
